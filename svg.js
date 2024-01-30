@@ -1,3 +1,4 @@
+// SVG with properties and functions
 class SVG {
     constructor() { 
         this.shape = '';
@@ -6,6 +7,7 @@ class SVG {
     setShape(shape) {
         this.shape = shape.render();
     }
+    // setting the length of text to no more than 3 characters
     setText(text, color) {
         if(text.length > 3){
             throw new Error("Text must not exceed 3 characters.");

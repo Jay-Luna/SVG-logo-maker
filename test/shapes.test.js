@@ -1,4 +1,4 @@
-// importing shapes.js
+// importing shapes
 const { Square, Triangle, Circle } = require("../shapes");
 
 describe("Circle", () => {
