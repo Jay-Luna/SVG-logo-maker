@@ -1,0 +1,14 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "App to generate logos via prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "The great me",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.7.0"
+  }
+}
