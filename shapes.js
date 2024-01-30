@@ -1,5 +1,7 @@
+// parent class
 class Shapes {
     constructor() { }
+    // setting color
     setColor(color) {
         this.color = color;
     }
@@ -7,7 +9,7 @@ class Shapes {
         return '';
     }
 }
-
+// child class
 class Circle extends Shapes {
     render() {
         return '<circle cx="150" cy="100" r="80" fill="' + this.color + '" />';
@@ -25,5 +27,5 @@ class Square extends Shapes {
         return '<rect x="90" y="40" width="120" height="120" fill="' + this.color + '" />';
     }
 }
-
+// exporting
 module.exports = { Circle, Triangle, Square, Shapes };

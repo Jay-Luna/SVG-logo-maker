@@ -15,6 +15,7 @@ const questions = [{
     type: 'input',
     message: 'Enter text for logo. (Must not be more than 3 characters)',
     name: 'logo',
+    // limiting the amount of characters
     validate: (value) => {
         if (value.length > 3) {
             return 'Must not be more than 3 characters';
