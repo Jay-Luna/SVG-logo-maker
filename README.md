@@ -1,6 +1,4 @@
   # SVG Logo Maker
-
-  https://jay-luna.github.io/SVG-logo-maker/
   
   ## Table of Contents
   * [Description](#description)
