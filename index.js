@@ -2,8 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const { SVG } = require('./svg');
-const { Shapes, Circle, Triangle, Square } = require('./shapes');
+const { SVG } = require('./lib/svg');
+const { Shapes, Circle, Triangle, Square } = require('./lib/shapes');
 
 const CIRCLE_TXT = 'circle';
 const TRI_TXT = 'triangle';
